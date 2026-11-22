@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "Find and fix duplicates and whitespace issues in CSV files.",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

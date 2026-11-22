@@ -2,6 +2,8 @@
 
 Clean a messy CSV safely: detect stray and double spaces, non-breaking spaces, placeholder values, empty rows and duplicates; choose which fixes to apply; review every changed cell and removed row in a before/after preview; then download a new, clean file.
 
+**Live demo:** [https://kavishtolani.github.io/cleansheet/](https://kavishtolani.github.io/cleansheet/) — runs entirely in your browser; demo data is fictional and labelled.
+
 ![Clean view](docs/clean.png)
 
 | Landing | Mobile |
@@ -42,3 +44,7 @@ npm run test:e2e   # Playwright smoke test (npm run e2e:install once if Chromium
 ## Future improvements
 
 - Merge duplicates by filling blanks from later rows; date/number normalisation; saving cleaning recipes to reuse.
+
+## Licence
+
+MIT — see [LICENSE](LICENSE).
